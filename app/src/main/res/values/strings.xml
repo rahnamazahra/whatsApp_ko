@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">گفتمان</string>
+    <string name="WelcomeText">خوش آمدید</string>
+    <string name="SignIn"> وارد حساب کاربری خود شوید</string>
+    <string name="CreateAccount"> ایجاد حساب کاربری جدید</string>
+
+    <string name="Login_text">ورود</string>
+    <string name="hint_editPassword">رمز عبور</string>
+    <string name="hint_editEmail">ایمیل</string>
+    <string name="errormsg">تمامی فیلدها باید پر شوند</string>
+    <string name="userName">نام کاربری</string>
+    <string name="Logout">خروج</string>
+    <string name="Setting">تنظیمات</string>
+    <string name="Name">نام</string>
+    <string name="About">درباره ما</string>
+    <string name="PhoneNumber">شماره تلفن</string>
+    <string name="sendMessage">ارسال پیام</string>
+    <string name="chatUser">چت</string>
+    <string name="userlist">مخاطبین</string>
+    <string name="incoming_video_call">تماس ورودی ویدویی</string>
+    <string name="outing_video_call">تماس خروجی ویدویی</string>
+    <string name="decline">رد تماس</string>
+    <string name="accept">پاسخ</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorAccent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/custombarProfileImageView"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/profile_img" />
+
+    <TextView
+
+        android:id="@+id/customProfileUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/custombarProfileImageView"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toStartOf="@+id/custombarProfileImageView"
+        android:gravity="end"
+        android:text="@string/userName"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/customState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/customProfileUsername"
+        android:layout_below="@+id/customProfileUsername"
+        android:layout_marginTop="2dp"
+        android:text="online"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_video_call"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_baseline_videocam_24"
+        />
+</RelativeLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastseen"
+        android:src="@drawable/ic_online_dot"
+        android:visibility="gone"
+        app:layout_anchor="@id/custombarProfileImageView"
+       app:layout_anchorGravity="bottom|end"
+
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
